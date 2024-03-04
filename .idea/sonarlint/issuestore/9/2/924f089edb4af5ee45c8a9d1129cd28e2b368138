@@ -1,0 +1,10 @@
+
+7
+java:S1220""Move this file to a named package.8É…›Ìà1
+N
+java:S1481	"1Remove this unused "myConnection" local variable.(í‡¹Õ8Ñ…›Ìà1
+M
+java:S1481
+"0Remove this unused "myStatement" local variable.(ÆûôĞ8Ñ…›Ìà1
+M
+java:S1481"0Remove this unused "myResultSet" local variable.(şÔÖó8Ñ…›Ìà1
