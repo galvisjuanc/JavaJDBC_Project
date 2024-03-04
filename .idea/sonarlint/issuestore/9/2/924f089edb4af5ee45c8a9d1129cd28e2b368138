@@ -1,10 +1,12 @@
 
 7
-java:S1220""Move this file to a named package.8É…›Ìà1
-N
-java:S1481	"1Remove this unused "myConnection" local variable.(í‡¹Õ8Ñ…›Ìà1
-M
-java:S1481
-"0Remove this unused "myStatement" local variable.(ÆûôĞ8Ñ…›Ìà1
-M
-java:S1481"0Remove this unused "myResultSet" local variable.(şÔÖó8Ñ…›Ìà1
+java:S1220""Move this file to a named package.8óëëÌà1
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(•Ÿ¼ÿÿÿÿÿ8œìëÌà1
+d
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ò»ñö8´ÙóÌà1
+X
+java:S6437"6Revoke and change this password, as it is compromised.(•Ÿ¼ÿÿÿÿÿ8ªìëÌà1
+G	java:S106"+Replace this use of System.out by a logger.(¾œ–Ú8«ìëÌà1
+G	java:S106"+Replace this use of System.out by a logger.(Ÿš‹Â8ùÜìÌà1
+G	java:S106"+Replace this use of System.out by a logger.(§èÉ8¾ÙóÌà1
