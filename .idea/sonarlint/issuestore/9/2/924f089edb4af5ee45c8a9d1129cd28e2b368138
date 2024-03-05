@@ -3,10 +3,10 @@
 java:S1220""Move this file to a named package.8óëëÌà1
 j
 java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(•Ÿ¼ÿÿÿÿÿ8œìëÌà1
-d
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ò»ñö8´ÙóÌà1
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(£¹¦òÿÿÿÿÿ8”˜³øà1
 X
 java:S6437"6Revoke and change this password, as it is compromised.(•Ÿ¼ÿÿÿÿÿ8ªìëÌà1
 G	java:S106"+Replace this use of System.out by a logger.(¾œ–Ú8«ìëÌà1
-G	java:S106"+Replace this use of System.out by a logger.(Ÿš‹Â8ùÜìÌà1
-G	java:S106"+Replace this use of System.out by a logger.(§èÉ8¾ÙóÌà1
+G	java:S106"+Replace this use of System.out by a logger.(®·ÂÇ8¾ÙóÌà1
+G	java:S106"+Replace this use of System.out by a logger.(§èÉ8¥˜³øà1

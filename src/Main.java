@@ -5,18 +5,22 @@ import java.sql.*;
 public class Main {
     public static void main(String[] args) {
         Connection myConnection = null;
-        Statement myStatement = null;
-        ResultSet myResultSet = null;
+
+        PreparedStatement preparedStatement = null;
 
         try {
             myConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project", "root", "BrokenYouth_1711*");
             System.out.println("Conexion Efectiva");
 
-            myStatement = myConnection.createStatement();
-            myResultSet = myStatement.executeQuery("SELECT * FROM employees");
+            String sqlInsert = ("INSERT INTO employees (first_name, pa_surname) VALUES (?, ?)");
+            preparedStatement = myConnection.prepareStatement(sqlInsert);
+            preparedStatement.setString(1, "Natalie");
+            preparedStatement.setString(2, "Sierra");
 
-            while(myResultSet.next()) {
-                System.out.println(myResultSet.getString("first_name"));
+            int rowsAffected = preparedStatement.executeUpdate();
+
+            if (rowsAffected > 0) {
+                System.out.println("Se ha creado un nuevo usuario");
             }
         } catch (Exception e) {
             e.printStackTrace();
