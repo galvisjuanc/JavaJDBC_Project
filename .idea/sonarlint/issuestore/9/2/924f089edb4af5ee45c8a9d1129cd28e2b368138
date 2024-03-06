@@ -1,12 +1,17 @@
 
 7
-java:S1220""Move this file to a named package.8óëëÌà1
+java:S1220""Move this file to a named package.8£ë½Ÿá1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ïª‰™ÿÿÿÿÿ8«ë½Ÿá1
 j
-java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(•Ÿ¼ÿÿÿÿÿ8œìëÌà1
-q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(£¹¦òÿÿÿÿÿ8”˜³øà1
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(•Ÿ¼ÿÿÿÿÿ8«ë½Ÿá1
+S
+java:S1481	"6Remove this unused "preparedStatement" local variable.(ÆÃ«ª8¯ë½Ÿá1
 X
-java:S6437"6Revoke and change this password, as it is compromised.(•Ÿ¼ÿÿÿÿÿ8ªìëÌà1
-G	java:S106"+Replace this use of System.out by a logger.(¾œ–Ú8«ìëÌà1
-G	java:S106"+Replace this use of System.out by a logger.(®·ÂÇ8¾ÙóÌà1
-G	java:S106"+Replace this use of System.out by a logger.(§èÉ8¥˜³øà1
+java:S6437"6Revoke and change this password, as it is compromised.(•Ÿ¼ÿÿÿÿÿ8°ë½Ÿá1
+G	java:S106"+Replace this use of System.out by a logger.(¾œ–Ú8±ë½Ÿá1
+L	java:S106"+Replace this use of System.out by a logger.(ö—ï½úÿÿÿÿ8³ë½Ÿá1
+]	java:S125"<This block of commented-out lines of code should be removed.(‰ä¤Šûÿÿÿÿ8²ë½Ÿá1
+]	java:S125 "<This block of commented-out lines of code should be removed.(—Øçøÿÿÿÿ8²ë½Ÿá1
+]	java:S125""<This block of commented-out lines of code should be removed.(Õı¬­şÿÿÿÿ8²ë½Ÿá1
+G	java:S106'"+Replace this use of System.out by a logger.(§èÉ8Ö¢ÀŸá1
