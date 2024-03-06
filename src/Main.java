@@ -17,9 +17,16 @@ public class Main {
             System.out.println("Conexion Efectiva");
 
             statement = myConnection.createStatement();
-            statement.executeUpdate("UPDATE employees " + "SET email= 'cossette.sierra@gmail.com'" + "WHERE first_name = 'Natalie'");
+            //statement.executeUpdate("UPDATE employees " + "SET email= 'cossette.sierra@gmail.com'" + "WHERE first_name = 'Natalie'");
+            System.out.println("Empleados antes del borrado: ");
             resultSet = statement.executeQuery("SELECT * FROM employees ORDER BY pa_surname");
+            while (resultSet.next()) {
+                System.out.println(resultSet.getString("first_name") + ", " + resultSet.getString("email"));
+            }
 
+            statement.executeUpdate("DELETE FROM employees " + "WHERE first_name= 'Johis'");
+            System.out.println("Empleados actuales: ");
+            resultSet = statement.executeQuery("SELECT * FROM employees ORDER BY pa_surname");
             while(resultSet.next()) {
                 System.out.println(resultSet.getString("first_name") + ", " + resultSet.getString("email"));
             }
